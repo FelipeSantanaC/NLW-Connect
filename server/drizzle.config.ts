@@ -5,5 +5,5 @@ export default {
   schema: 'src/drizzle/schema/*',
   out: 'src/drizzle/migrations',
   dialect: 'postgresql',
-  dbCredentials: { url: env.DATABASE_URL },
+  dbCredentials: { url: env.POSTGRES_URL },
 } satisfies Config
